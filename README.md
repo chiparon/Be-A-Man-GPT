@@ -13,8 +13,14 @@ GPT 的典型毛病：
 
 ## 文件
 
-- [custom-instructions.md](custom-instructions.md)：贴进 ChatGPT「自定义指令」的提示词
-- [tests.md](tests.md)：10 道测试题和评分标准，用来检查它有没有退回原样
+- [custom-instructions.md](custom-instructions.md)：v1，通用版自定义指令
+- [spells/](spells/)：针对废话、无决断、过度设计三个维度的三种写法
+  - [A-rules.md](spells/A-rules.md)：规则型，明确的禁令和必须项
+  - [B-persona.md](spells/B-persona.md)：人设型，描述一个有品味的资深工程师
+  - [C-examples.md](spells/C-examples.md)：示范型，"不要这样 / 要这样"的对照样例
+- [tests.md](tests.md)：12 道测试题和评分标准，按维度统计分数
+
+每次只贴一个版本，跑完测试再换下一个，这样才能比出哪种策略对 GPT 最管用。
 
 ## 用法
 
